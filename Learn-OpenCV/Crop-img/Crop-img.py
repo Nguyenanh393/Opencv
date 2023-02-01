@@ -1,7 +1,7 @@
 import cv2
 from PIL import Image
 
-img = cv2.imread('D:/Github/Opencv/Learn-OpenCV/Crop-img/test.png')
+img = cv2.imread('D:/Github/Opencv/Learn-OpenCV/Crop-img/test.jpg')
 
 print(img.shape)
 
@@ -21,4 +21,4 @@ def get_num_pixels(filepath):
     width, height = Image.open(filepath).size
     return (width,height)
 
-print(get_num_pixels("D:/Github/Opencv/Learn-OpenCV/Crop-img/test.png"))
+print(get_num_pixels("D:/Github/Opencv/Learn-OpenCV/Crop-img/test.jpg"))
